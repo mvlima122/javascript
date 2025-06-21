@@ -178,5 +178,34 @@ var my_name;
 
 ~~~ 
 
+## TIPOS DE DADOS   
+
+### Dados primitivos
+
+~~~ javascript
+./src/script.js
+
+// string - variavéis em texto do javascript.  É o tipo. A variável é definida pelo seu valor.
+var name = "Alex"; 
+
+var surname = 'Bessa'; 
+
+// number
+var age = 29;
+var weight = 85.6;
+
+//boolean
+var active = true;
+var permission = false;
+
+// undefined - indefinido
+var contains;
+console.log(contains)
+
+// null - define propositalmente um valor nulo
+var data = null;
+ 
+ ~~~
+
 
 
