@@ -23,3 +23,17 @@ console.log(age)
 age = 30;
 
 console.log(age)
+
+var age;
+var Age;
+var _age;
+var $age;
+
+// denominações de variáveis compostas
+
+var myName; // camel case
+
+var MyName; //pascal case
+
+var my_name; //snake case
+
