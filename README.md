@@ -1,3 +1,12 @@
+<!-- É o mair título da página # -->
+# Fundamentos do JavaScript Clássico
+
+## INTEGRAÇÕES
+
+### Integrar JavaScript de forma interna
+
+<!-- ~~~ indica código -->
+~~~~ html
 <!DOCTYPE html>
 
 <html lang="pt-BR">
@@ -13,3 +22,5 @@
      </script>
 </body>
 </html>
+
+~~~~
