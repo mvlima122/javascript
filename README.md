@@ -52,3 +52,34 @@
 </body>
 </html>
 ~~~~
+
+## COMENTÁRIOS
+
+### Comentários de linha
+
+~~~~ JavaScript
+
+    // comentário de linha
+
+~~~~
+
+### Comentários de bloco simples
+
+~~~~ JavaScript
+
+    console.log("Hello World!"); // Logando "Hello World!" no console do navegador.
+    /* comentário de bloco  simples */
+
+~~~~
+
+### Comentários de bloco com marcadores
+
+~~~~ JavaScript
+
+     /**
+     * comentário de bloco com marcações
+     * linha 2
+     * linha 3
+     */
+
+~~~~
