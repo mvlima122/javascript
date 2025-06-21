@@ -58,6 +58,7 @@
 ### Comentários de linha
 
 ~~~~ JavaScript
+./src/script.js
 
     // comentário de linha
 
@@ -66,6 +67,7 @@
 ### Comentários de bloco simples
 
 ~~~~ JavaScript
+./src/script.js
 
     console.log("Hello World!"); // Logando "Hello World!" no console do navegador.
     /* comentário de bloco  simples */
@@ -75,6 +77,7 @@
 ### Comentários de bloco com marcadores
 
 ~~~~ JavaScript
+./src/script.js
 
      /**
      * comentário de bloco com marcações
@@ -83,3 +86,47 @@
      */
 
 ~~~~
+
+## VARIÁVEIS
+
+### Declaração
+
+~~~~ JavaScript
+./src/script.js
+
+     var number; 
+
+~~~~
+
+### Atribuição de valores
+
+~~~~ JavaScript
+./src/script.js
+
+     var number; 
+
+     number = 5;
+
+~~~~
+
+### Declaração e atribuição de valores
+
+~~~~ JavaScript
+./src/script.js
+
+     var number = 5;
+
+~~~~
+
+### Retribuição de valor
+
+~~~~ JavaScript
+./src/script.js
+
+     var number = 5;
+
+     number = 10;
+
+~~~~
+
+
