@@ -207,5 +207,28 @@ var data = null;
  
  ~~~
 
+ ### Não primitivos
+
+ ~~~ javascript
+   ./src/script.js
+
+   // array 
+   var values = [1, "Vitoria", true, null];
+   
+
+   // object literal
+   
+   var person = {name: "Vitoria", age: 29};
+
+   var person = {
+     name: "Vitoria",
+     age: 29
+   };
+
+   // functions
+
+   var message = function(){};
+   ~~~
+
 
 

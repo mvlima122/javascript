@@ -58,3 +58,23 @@ console.log(contains)
 
 // null - define propositalmente um valor nulo
 var data = null;
+
+var arr = [
+[1, 2, 3]
+["Vitória", "Airton", "Alexandre"]
+[true, false]
+];
+
+console.log(arr[1][1])
+
+var arr = [
+    [1, 2, 3],
+    [
+        ["Alex", "Marcos"],
+        [29, 40]
+    ],
+    [true, false]
+]
+
+console.log(arr [1][1][1])
+
