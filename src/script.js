@@ -139,4 +139,7 @@ var mod = num1 % num2;
 
  console.log(ageAlex == ageMarcos);
 
+ // != inidica que o sinal de diferente.
+ conosole.log(ageAlex != ageMarcos);
+
 
