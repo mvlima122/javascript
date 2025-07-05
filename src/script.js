@@ -78,3 +78,65 @@ var arr = [
 
 console.log(arr [1][1][1])
 
+
+var weight = Number("85.6");
+
+var age = String(29);
+
+// o zero é sempre falso, quando se refere a boolean. -1 é considerado como verdadeiro.
+var active = Boolean(0);
+
+/** OPERADORES
+ * Aritméticos
+ * Atribuição
+ * Relacional
+ * Lógico
+ */
+
+//Operadores aritméticos
+
+var num1 = 10;
+var num2 = 2;
+
+//adiction
+var sum = num1 + num2;
+
+//Subtraction
+var sub = num1 - num2;
+
+//Multiplication
+var multi = num1 * num2;
+
+//division
+var div = num1 / num2;
+
+// módulo
+var mod = num1 % num2;
+
+// incremento, são dois sinais de mais, pois apenas 1 indicaria a soma. Reatribuição de valor.
+ num1++;
+
+ //decremento
+ num1--;
+
+ // Operadores de atribuição
+
+ // atribuição simples
+ var age = 29;
+
+ // atribuição de adição
+ var balance = 10;
+ balance += 5;
+
+ // atribuição de subtração
+ var balance = 10;
+ balance -=5;
+
+ // Operadores relacionais. Dois iguais, há a comparação só do valor. Três iguais, indica comparação estrita.
+ var ageAlex = 29;
+
+ var ageMarcos = 40;
+
+ console.log(ageAlex == ageMarcos);
+
+

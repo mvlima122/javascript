@@ -231,4 +231,57 @@ var data = null;
    ~~~
 
 
+   ### Inspecionar tipo
+
+   ~~~ javascript
+   ./scr/script.js
+
+   //typeof
+   var age = 29
+   console.log(typeof age);
+
+
+   ~~~
+
+
+### Coerçao de Tipo
+
+  -Implícita
+   ~~~ javascript
+   ./scr/script.js
+
+   var age = 29;
+
+   var weight = "86.5";
+
+   var result = age + weight;
+
+   console.log(result);
+
+   ~~~
+
+   
+   -Explícita
+
+~~~ javascript
+   ./scr/script.js
+
+   //Number()
+   var weight = Number("85.6");
+   console.log(typeof weight);
+    
+   //String() 
+   var age = String(29);
+   console.log(typeof age);
+
+   //Boolean()
+   // o zero é sempre falso, quando se refere a boolean. -1 é considerado como verdadeiro.
+   var active = Boolean(0);
+   console.log(typeof active);
+
+   ~~~
+
+   
+
+
 
