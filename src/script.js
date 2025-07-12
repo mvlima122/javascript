@@ -143,6 +143,20 @@ var mod = num1 % num2;
  console.log(ageAlex != ageMarcos);
  console.log(ageAlex > ageMarcos);
  console.log(ageAlex < ageMarcos);
+ console.log(ageAlex <= ageMarcos);
+
+ // Operadore Lógicos:  AND; OR; NOT
+
+ //AND, só funciona se todas as condições forem verdadeiras.
+ console.log(true&&true);
+
+ // OR, pelo menos uma condição for verdadeira.
+ console.log(1 > 0 || 2 > 1);
+
+ // NOT, operador de negação
+ console.log(!false);
+
+
 
 
 

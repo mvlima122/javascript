@@ -281,7 +281,57 @@ var data = null;
 
    ~~~
 
-   
+ ## Estruturas de Controle de Fluxo
+
+ ### Estruturas Condicionais
+
+ ### Truthy and Falsy
+
+  - **Truthy**: tudo que nao for **falsy**
+
+  - **Falsy**: "", 0, false, undefined, null, NaN.
+
+ #### IF
+
+ ~~~ javascript
+    ./scr/script.js
+
+    var age = 65;
+
+    if (age > 60) {
+           console.log(" Aposentado.");
+     } else if (age > 30) {
+          console.log("CLT.");
+     } else{
+          console.log("Colleger.");
+     }
+
+
+~~~
+
+#### Operador Ternário
+
+ ~~~ javascript
+    ./scr/script.js
+
+    var age = 16;
+
+    age >= 18 ? console.log("Adult") : console.log("Minor");
+
+~~~
+
+#### Curto-Circuito lógico
+
+ ~~~ javascript
+    ./scr/script.js
+
+    var licensed = false;
+
+    !licensed && console.log("Precisa tirar a carta de habilitação");
+
+
+~~~
+
 
 
 
