@@ -354,6 +354,18 @@ var data = null;
 
 ~~~
 
+#### Estruturas de Repetição
+
+ ~~~ javascript
+    ./scr/script.js
+
+    #### FOR 
+
+    for (var n = 0; n <= 5; n++) {
+     console.log("Number: " + n);
+    }
+
+~~~
 
 
 
