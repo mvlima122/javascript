@@ -329,8 +329,32 @@ var data = null;
 
     !licensed && console.log("Precisa tirar a carta de habilitação");
 
+~~~
+
+#### Switch case
+
+ ~~~ javascript
+    ./scr/script.js
+
+    switch (light) {
+     case "red":
+          console.log("Stop!");
+          break;
+     case "yellow":
+          console.log("Attention");
+          break;
+     case "green":
+          console.log("Go!");
+          break;
+     default:
+          console.log("Invalid color.");               
+
+    }
+
 
 ~~~
+
+
 
 
 
