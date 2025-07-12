@@ -356,16 +356,42 @@ var data = null;
 
 #### Estruturas de Repetição
 
- ~~~ javascript
+~~~ javascript
     ./scr/script.js
 
-    #### FOR 
+ #### FOR 
 
-    for (var n = 0; n <= 5; n++) {
+     for (var n = 0; n <= 5; n++) {
      console.log("Number: " + n);
+    }
+~~~
+
+~~~ javascript
+    ./scr/script.js
+
+  #### WHILE 
+
+     while (var n <= 5) {
+     console.log("Number: " + n);
+     n++;
     }
 
 ~~~
+
+~~~ javascript
+    ./scr/script.js
+
+  ####  DO WHILE 
+
+    do{
+     console.log("Executed at least once.");
+    } while (n < 5)
+
+    
+
+  ~~~
+
+
 
 
 
